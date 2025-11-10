@@ -1,0 +1,52 @@
+<!-- semantic a11y seo-->>
+ <!DOCTYPE html> <!--label of documentation, must be on the first line-->>
+ <html lang="en">
+ <link>
+    <meta charset="UTF-8">
+    <!--must be added, GB2312simplied chinese-->>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+    <header>
+        <h1>Tech Gear</h1>
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>              
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Innovative Tech Gadgets</h2>
+            <p>Explore our latest range of tech gear designed for performance </p>
+        </section>
+        <section class="products" aria-label="product list">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80%22" alt="wireless Headphones"/>
+                    <h3>Wireless Headphones</h3>
+                    <p>High-quality sound with noise</p>
+                    <button type="button" aria-label="Buy wireless Headphones">Buy Now</button>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80%22" alt="smart watch" />
+                    <h2>Smart Watch</h2>
+                    <p>Track your health stay connected on the go</p>
+                    <button type="button" aria-label="Buy Smart Watch">Buy Now</button>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80%22" alt="Portalbe Speaker" />
+                    <h2>Portable Speaker </h2>
+                    <p>Crystal clear sound in a design</p>
+                    <button type="button" aria-label="Buy Portable Speaker">Buy Now</button>
+                </article>
+            </div>
+        </section>
+    </main>
+ </body>
+ </html>
