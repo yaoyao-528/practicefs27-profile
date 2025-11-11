@@ -163,5 +163,28 @@ header h1 {
     border-radius: 8px;
     font-weight: 600;
     cursor:pointer;
-    
+
+}
+
+.contact-form:hover,
+.contact-form:focus{
+    background-color: #005fa3;
+    outline-offset: 2px;
+    outline-color: #005fa3;
+    outline-style: solid;
+}
+footer{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #222;
+    color:#fff;
+    font-size: 0.9rem;
+}
+@media (max-width:600px) {
+    .nav-list{
+        flex-direction: column;
+        gap:0.5rem;
+        
+    }
 }
